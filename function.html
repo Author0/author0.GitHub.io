@@ -1,0 +1,63 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+ </head>
+ <body>
+     <script>
+         function sum(a,b){
+             c=a+b;
+             return c;
+         }
+         let d=sum(1,1)
+        
+           function oddeven(d){
+               if(d%2==0){
+                   return 1;
+               }
+               else{
+                   return 0;
+               }
+           }
+           let f=oddeven(d);
+           function tprime(d,f){
+               if(f==1){
+                  prime(d);
+               }
+               else{
+                  factor(d);
+               }
+           }
+           let g=tprime(d,f);
+           function prime(d){
+               let prime=0;
+            for(i=2;i<c;i++){
+            if(c%i==0){
+                prime=1;
+            }
+
+        }
+        if(prime==0){
+            document.write(d + " is a prime number.")
+        }
+        else{
+            document.write(d + " is not a prime number.")
+        }
+           }
+           function factor(d){
+               fact=1
+                  for(i=1;i<=c;i++)
+                  {
+                  fact=fact*i;
+                  }
+                  document.write(" factorial of "+ d + " is " + fact)
+           }
+
+           
+
+     </script>
+ </body>
+ </html>

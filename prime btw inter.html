@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Prime numbers between  a to b are:-<br>
+    <script>
+        let a=prompt(" From");
+        let  b=prompt("to");
+        function primebw(a,b)
+        {    let prime=1;
+            for(i=a;i<=b;i++)
+            {
+                let prime=0;
+                for(j=2;j<i;j++)
+                {
+                 if(i%j==0){
+                     prime=1
+                 }
+                }
+                
+                if(prime==0)
+                {
+                    document.write(i +" <br>")
+                }
+                
+            }
+        }
+        primebw(a,b)
+    </script>
+</body>
+</html>

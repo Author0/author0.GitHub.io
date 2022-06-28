@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      
+            var n=153;
+            var e,d=0;
+            x=n;
+            while(x>0)
+            {
+               e=x%10;
+               d=d+(e*e*e);
+               x=parseInt(x/10);
+            }
+            if(n==d){
+                document.write(d +" is a armstrong number")
+            }
+            else{
+                document.write(d +" is not a armstrong number")
+            }
+       
+     
+       
+             
+        </script>
+</body>
+</html>
